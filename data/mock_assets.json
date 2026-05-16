@@ -1,0 +1,42 @@
+[
+  {
+    "asset": "checkout-api-01",
+    "owner": "Revenue Platform",
+    "criticality": "critical",
+    "environment": "Production",
+    "exposure": "internet-facing",
+    "business_service": "Checkout"
+  },
+  {
+    "asset": "prod-cluster-a",
+    "owner": "Cloud Platform",
+    "criticality": "critical",
+    "environment": "Production",
+    "exposure": "internal",
+    "business_service": "Production Kubernetes"
+  },
+  {
+    "asset": "cloud-project-prod",
+    "owner": "Cloud Governance",
+    "criticality": "critical",
+    "environment": "Production",
+    "exposure": "control-plane",
+    "business_service": "Cloud IAM"
+  },
+  {
+    "asset": "inventory-api-03",
+    "owner": "Inventory",
+    "criticality": "high",
+    "environment": "Production",
+    "exposure": "internet-facing",
+    "business_service": "Inventory API"
+  },
+  {
+    "asset": "batch-ingest-identity",
+    "owner": "Data Platform",
+    "criticality": "medium",
+    "environment": "Staging",
+    "exposure": "control-plane",
+    "business_service": "Batch Ingest"
+  }
+]
